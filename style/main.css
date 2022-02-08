@@ -30,7 +30,7 @@ img {
 	box-shadow: 0 5px 10px 1px var(--grayishblue);
 	max-width: 22em;
 	height: 33em;
-	margin: 6em auto;
+	margin: 10em auto;
 }
 
 .card-component img {
