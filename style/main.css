@@ -1,0 +1,65 @@
+/* ######## Global ####### */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--white: hsl(0, 0%, 100%);
+	--lightgray: hsl(212, 45%, 89%);
+	--grayishblue: hsl(220, 15%, 55%);
+	--darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+	font-family: 'Outfit', sans-serif;
+	font-size: 15px;
+	background-color: var(--lightgray);
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ###### MAIN ########## */
+.card-component {
+	background-color: var(--white);
+	padding: 1em;
+	border-radius: 1.3em;
+	box-shadow: 0 5px 10px 1px var(--grayishblue);
+	max-width: 22em;
+	height: 33em;
+	margin: 6em auto;
+}
+
+.card-component img {
+	border-radius: 0.8em;
+}
+
+.card-component__content {
+	padding: 1em 1.2em;
+	text-align: center;
+}
+
+.card-component__content h1 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: var(--darkblue);
+}
+
+.card-component__content p {
+	color: var(--grayishblue);
+}
+
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+  margin-top: 20em;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
